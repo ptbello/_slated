@@ -16,6 +16,7 @@ Supported languages
 
 - Italian, contributed by [@FrancescoGavello](https://github.com/FrancescoGavello)
 - French, contributed by [@FX Bénard](https://github.com/fxbenard)
+- Portuguese, contributed by [@pedro-mendonca](https://github.com/pedro-mendonca)
 
 
 Contributing
