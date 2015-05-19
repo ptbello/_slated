@@ -4,7 +4,7 @@ _slated
 
 Getting Started
 ---------------
-If your theme is based on _s, and your language is supported, pick the .po and .mo files from the [/languages](https://github.com/ptbello/_slated/tree/master/languages) folder of this repo and drop them in the /languages folder of your theme.
+If your theme is based on _s, and your language is supported, pick the .po and file from the [/languages](https://github.com/ptbello/_slated/tree/master/languages) folder of this repo, generate your .mo file and drop both in the /languages folder of your theme.
 
 For more information on WordPress translation please refer to:  
 http://codex.wordpress.org/WordPress_in_Your_Language  
