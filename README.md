@@ -14,11 +14,24 @@ http://codex.wordpress.org/Function_Reference/load_theme_textdomain
 Supported languages
 ---------------
 
-- Italian, contributed by [@FrancescoGavello](https://github.com/FrancescoGavello)
-- French, contributed by [@FX Bénard](https://github.com/fxbenard)
-- German (formal and informal), contributed by [@glueckpress](https://github.com/glueckpress) and [@2ndkauboy](https://github.com/2ndkauboy)
-- Portuguese, contributed by [@pedro-mendonca](https://github.com/pedro-mendonca)
-- Russian, contributed by [@sergejmueller](https://github.com/sergejmueller)
+- it_IT.po  
+        __Italian__, contributed by [@FrancescoGavello](https://github.com/FrancescoGavello)  
+
+- ja.po  
+        __Japanese__, contributed by [@Gatespace](https://github.com/gatespace)  
+
+- fr_FR  
+        __French__, contributed by [@FX Bénard](https://github.com/fxbenard)  
+
+- de_DE.po, de_DE-sie.po  
+        __German__ (formal and informal), contributed by [@glueckpress](https://github.com/glueckpress) and [@2ndkauboy](https://github.com/2ndkauboy)  
+
+- pt_PT.po  
+        __Portuguese__, contributed by [@pedro-mendonca](https://github.com/pedro-mendonca)  
+
+- ru_RU.po  
+        __Russian__, contributed by [@sergejmueller](https://github.com/sergejmueller)  
+
 
 
 Contributing
