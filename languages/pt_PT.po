@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: _s 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
 "POT-Creation-Date: 2015-06-07 22:32-0000\n"
-"PO-Revision-Date: 2015-06-07 22:32-0000\n"
+"PO-Revision-Date: 2015-06-07 22:50-0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -107,7 +107,7 @@ msgstr "http://wordpress.org/"
 
 #: footer.php:15
 msgid "Proudly powered by %s"
-msgstr "Orgulhosamente distribuído por %s"
+msgstr "Criado com %s"
 
 #: footer.php:17
 msgid "Theme: %1$s by %2$s."
