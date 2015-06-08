@@ -6,10 +6,10 @@ Getting Started
 ---------------
 If your theme is based on _s, and your language is supported, pick the .po and file from the [/languages](https://github.com/ptbello/_slated/tree/master/languages) folder of this repo, generate your .mo file and drop both in the /languages folder of your theme.
 
-For more information on WordPress translation please refer to:  
-http://codex.wordpress.org/WordPress_in_Your_Language  
+Please visit the following links to learn more about translating WordPress themes:  
+https://make.wordpress.org/polyglots/teams/  
 https://developer.wordpress.org/themes/functionality/localization/  
-http://codex.wordpress.org/Function_Reference/load_theme_textdomain  
+https://developer.wordpress.org/reference/functions/load_theme_textdomain/  
 
 Supported languages
 ---------------
