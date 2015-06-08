@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: _s 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2015-01-06 02:24:02+00:00\n"
-"PO-Revision-Date: 2015-04-23 15:49-0000\n"
+"POT-Creation-Date: 2015-06-07 22:32-0000\n"
+"PO-Revision-Date: 2015-06-07 22:50-0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.7.6\n"
+"X-Generator: Poedit 1.8.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -107,7 +107,7 @@ msgstr "http://wordpress.org/"
 
 #: footer.php:15
 msgid "Proudly powered by %s"
-msgstr "Orgulhosamente distribuído por %s"
+msgstr "Criado com %s"
 
 #: footer.php:17
 msgid "Theme: %1$s by %2$s."
@@ -178,7 +178,7 @@ msgstr "1 comentário"
 
 #: inc/template-tags.php:122
 msgid "% Comments"
-msgstr "%s comentários"
+msgstr "% comentários"
 
 #: inc/template-tags.php:143
 msgid "Category: %s"
