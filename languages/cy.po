@@ -1,0 +1,253 @@
+# Translation of Underscores in Cymraeg
+# This file is distributed under the same license as the Underscores package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-12-13 20:23:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Underscores\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Wps! Heb ganfod y dudalen yna."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Heb ganfod dim yn y lleoliad yma. Rhowch gynnig ar un o'r dolenni isod neu ceisiwch chwilio."
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Categorïau Mwyaf Cyffredin"
+
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Rhowch gynnig ar edrych yn yr archifau misol. %1$s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Awdur: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "Diwrnod: %s"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Mis: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Blwyddyn: %s"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Neillebau"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Orielau"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Delweddau"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Fideos"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Dyfyniadau"
+
+#: archive.php:54
+msgid "Links"
+msgstr "Dolenni"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Statws"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Sain"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Sgyrsiau"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Archifau"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un sylw ar &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s sylw ar &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s sylw ar &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s sylw ar &ldquo;%2$s&rdquo;"
+
+#: comments.php:35 comments.php:52
+msgid "Comment navigation"
+msgstr "Llywiwr sylwadau"
+
+#: comments.php:36 comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; Sylwadau Hŷn"
+
+#: comments.php:37 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "Sylwadau mwy newydd &rarr;"
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "Sylwadau wedi cau."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Heb ganfod dim"
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Barod i gyhoeddi eich cofnod cyntaf? <a href=\"%1$s\">Dechreuwch yma</a>."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Doedd dim byd yn cyfateb i'r termau roeddech chi'n chwilio amdanynt. Rhowch gynnig arall arni drwy ddefnyddio allweddeiriau gwahanol."
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Ni allwn ddod o hyd i'r hyn rydych chi'n chwilio amdano. Efallai y gall chwilota eich helpu."
+
+#: content-page.php:18 content-single.php:20 content.php:22
+msgid "Pages:"
+msgstr "Tudalennau:"
+
+#: content-page.php:25 inc/template-tags.php:122
+msgid "Edit"
+msgstr "Golygu"
+
+#: content.php:19
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Parhau i ddarllen <span class=\"meta-nav\">&rarr;</span>"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Pwerir gan %s"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Thema: %1$s gan %2$s."
+
+#: functions.php:45 header.php:32
+msgid "Primary Menu"
+msgstr "Prif Ddewislen"
+
+#: functions.php:80
+msgid "Sidebar"
+msgstr "Bar ochr"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Neidio i'r cynnwys"
+
+#: inc/extras.php:63
+msgid "Page %s"
+msgstr "Tudalen %s"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Llywiwr cofnodion"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Cofnodion hŷn"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Cofnodion mwy newydd <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Llywiwr cofnod"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:82
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Postiwyd ar %s"
+
+#: inc/template-tags.php:87
+msgctxt "post author"
+msgid "by %s"
+msgstr "gan %s"
+
+#: inc/template-tags.php:104 inc/template-tags.php:110
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:106
+msgid "Posted in %1$s"
+msgstr "Postiwyd yn %1$s"
+
+#: inc/template-tags.php:112
+msgid "Tagged %1$s"
+msgstr "Tagiwyd %1$s"
+
+#: inc/template-tags.php:118
+msgid "Leave a comment"
+msgstr "Gwneud sylw"
+
+#: inc/template-tags.php:118
+msgid "1 Comment"
+msgstr "1 Sylw"
+
+#: inc/template-tags.php:118
+msgid "% Comments"
+msgstr "% Sylw"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Canlyniadau Chwilota ar gyfer: %s"
+
+msgid "_s"
+msgstr "_s"
+
+msgid "http://underscores.me/"
+msgstr "http://underscores.me/"
+
+msgid "Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for."
+msgstr "Helo. Thema cychwynnol ydw i o'r enw <code>_s</code>, neu <em>underscores</em>, os hoffech chi. Thema ar gyfer hacio ydw i, felly peidiwch â fy nefnyddio fel <em>Thema Rhiant</em>. Yn hytrach, beth am geisio fy nhroi i yn thema anhygoel newydd ar gyfer WordPress. Dyna pam rydw i yma."
+
+msgid "Automattic"
+msgstr "Automattic"
+
+msgid "http://automattic.com/"
+msgstr "http://automattic.com/"
