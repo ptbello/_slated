@@ -13,6 +13,8 @@ https://developer.wordpress.org/reference/functions/load_theme_textdomain/
 
 Supported languages
 ---------------
+- cy.po  
+        __Welsh__ (iaith Gymraeg), contributed by [@carlmorris](https://github.com/carlmorris)  
 
 - de_DE.po, de_DE-sie.po  
         __German__ (formal and informal), contributed by [@glueckpress](https://github.com/glueckpress) and [@2ndkauboy](https://github.com/2ndkauboy)  
