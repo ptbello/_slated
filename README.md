@@ -19,6 +19,9 @@ Supported languages
 - de_DE.po, de_DE-sie.po  
         __German__ (formal and informal), contributed by [@glueckpress](https://github.com/glueckpress) and [@2ndkauboy](https://github.com/2ndkauboy)  
 
+- es_FR  
+        __Spanish__ (Spain), contributed by [@JuanJavier1979](https://github.com/JuanJavier1979)  
+
 - fr_FR  
         __French__, contributed by [@FX Bénard](https://github.com/fxbenard)  
 
