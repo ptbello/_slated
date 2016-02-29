@@ -1,0 +1,308 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2015-01-06 02:24:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-02-26 15:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_ES\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! Esta página no se encuentra."
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Parece que no se ha encontrado nada en esta localización. ¿Quizás ayudaría "
+"probar con uno de los siguientes enlaces o una búsqueda?"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Categorías Más Usadas"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Intenta buscar en los archivos mensuales. %1$s"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
+
+#: comments.php:35 comments.php:52
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: comments.php:36 comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios anteriores"
+
+#: comments.php:37 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios más recientes &rarr;"
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: content-none.php:19
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</"
+"a>."
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo sentimos, pero nada coincide con los términos de su búsqueda. Por favor, "
+"vuelva a intentarlo con otras palabras."
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no encontramos lo que estás buscando. Quizás una búsqueda te "
+"pueda ayudar."
+
+#: content-page.php:18 content-single.php:20 content.php:29
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: content-page.php:25 inc/template-tags.php:126
+msgid "Edit"
+msgstr "Editar"
+
+#. translators: %s: Name of current post
+#: content.php:22
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuar leyendo %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Creado con %s"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s por %2$s."
+
+#: functions.php:53 header.php:31
+msgid "Primary Menu"
+msgstr "Menú Principal"
+
+#: functions.php:88
+msgid "Sidebar"
+msgstr "Barra Lateral"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Ir al contenido"
+
+#: inc/extras.php:64
+msgid "Page %s"
+msgstr "Página %s"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Navegación de entradas"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Entradas anteriores"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Entradas más recientes"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Navegación de la entrada"
+
+#: inc/template-tags.php:86
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicado el %s"
+
+#: inc/template-tags.php:91
+msgctxt "post author"
+msgid "by %s"
+msgstr "por %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:108 inc/template-tags.php:114
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:110
+msgid "Posted in %1$s"
+msgstr "Publicado en %1$s"
+
+#: inc/template-tags.php:116
+msgid "Tagged %1$s"
+msgstr "Etiquetas: %1$s"
+
+#: inc/template-tags.php:122
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: inc/template-tags.php:122
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: inc/template-tags.php:122
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: inc/template-tags.php:143
+msgid "Category: %s"
+msgstr "Categoría: %s"
+
+#: inc/template-tags.php:145
+msgid "Tag: %s"
+msgstr "Etiqueta: %s"
+
+#: inc/template-tags.php:147
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: inc/template-tags.php:149
+msgid "Year: %s"
+msgstr "Año: %s"
+
+#: inc/template-tags.php:149
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:151
+msgid "Month: %s"
+msgstr "Mes: %s"
+
+#: inc/template-tags.php:151
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:153
+msgid "Day: %s"
+msgstr "Día: %s"
+
+#: inc/template-tags.php:153
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/template-tags.php:155
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Notas"
+
+#: inc/template-tags.php:157
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerías"
+
+#: inc/template-tags.php:159
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Imágenes"
+
+#: inc/template-tags.php:161
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videos"
+
+#: inc/template-tags.php:163
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citas"
+
+#: inc/template-tags.php:165
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Enlaces"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Estados"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Conversaciones"
+
+#: inc/template-tags.php:173
+msgid "Archives: %s"
+msgstr "Archivos: %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:177
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:179
+msgid "Archives"
+msgstr "Archivos"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Resultados de búsqueda por: %s"
+
+#. Theme Name of the plugin/theme
+msgid "_s"
+msgstr "_s"
+
+#. Theme URI of the plugin/theme
+msgid "http://underscores.me/"
+msgstr "http://underscores.me/"
+
+#. Description of the plugin/theme
+msgid ""
+"Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if "
+"you like. I'm a theme meant for hacking so don't use me as a <em>Parent "
+"Theme</em>. Instead try turning me into the next, most awesome, WordPress "
+"theme out there. That's what I'm here for."
+msgstr ""
+"Hola. Soy un tema inicial llamado <code>_s</code>, o <em>underscores</em>, "
+"si te gusta. Soy un tema hecho para ser cambiado, así que no me uses como un "
+"<em>Tema Padre</em>. Trata de convertirme en el siguiente, y más "
+"impresionante, tema WordPress que haya existido. Para eso estoy aquí."
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Author URI of the plugin/theme
+msgid "http://automattic.com/"
+msgstr "http://automattic.com/"
