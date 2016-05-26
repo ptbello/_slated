@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: _s\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/_s\n"
-"POT-Creation-Date: 2015-04-23 07:23:15+00:00\n"
-"PO-Revision-Date: 2015-04-23 10:12+0100\n"
-"Last-Translator: fxbenard | FxB <fx@fxbenard.com>\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-05-26 12:15+0200\n"
+"PO-Revision-Date: 2016-05-26 12:19+0200\n"
+"Last-Translator: FX Bénard <fx@fxbenard.com>\n"
 "Language-Team: fxbenard | FxB <fx@fxbenard.com>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_att_e;_n;"
 "_n:1,2;_x;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x;_x:1,2c\n"
-"X-Poedit-Basepath: ../\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8beta1\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oups ! Cette page ne peut pas être trouvée."
+msgstr "Aïe ! Cette page est introuvable."
 
 #: 404.php:19
 msgid ""
@@ -46,25 +46,25 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Une réflexion au sujet de &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s réflexions au sujet de &ldquo;%2$s&rdquo;"
 
-#: comments.php:35 comments.php:56
+#: comments.php:35 comments.php:52
 msgid "Comment navigation"
 msgstr "Navigation des commentaires"
 
-#: comments.php:38 comments.php:59
-msgid "Older Comments"
-msgstr "Commentaires plus anciens"
+#: comments.php:36 comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires plus anciens"
 
-#: comments.php:39 comments.php:60
-msgid "Newer Comments"
-msgstr "Commentaires plus récents"
+#: comments.php:37 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
 
-#: comments.php:72
+#: comments.php:64
 msgid "Comments are closed."
 msgstr "Les commentaires sont fermés."
 
 #: content-none.php:13
 msgid "Nothing Found"
-msgstr "Rien n&rsquo;a été trouvé"
+msgstr "Rien n’a été trouvé"
 
 #: content-none.php:19
 msgid ""
@@ -90,7 +90,7 @@ msgstr ""
 
 #: content-page.php:18 content-single.php:20 content.php:29
 msgid "Pages:"
-msgstr "Pages&nbsp;:"
+msgstr "Pages :"
 
 #: content-page.php:25 inc/template-tags.php:126
 msgid "Edit"
@@ -125,7 +125,7 @@ msgstr "Colonne latérale"
 msgid "Skip to content"
 msgstr "Aller au contenu"
 
-#: inc/extras.php:52
+#: inc/extras.php:64
 msgid "Page %s"
 msgstr "Page %s"
 
@@ -148,7 +148,7 @@ msgstr "Navigation des articles"
 #: inc/template-tags.php:86
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "Publié le&nbsp;: %s"
+msgstr "Publié le : %s"
 
 #: inc/template-tags.php:91
 msgctxt "post author"
@@ -203,7 +203,7 @@ msgstr "Y"
 
 #: inc/template-tags.php:151
 msgid "Month: %s"
-msgstr "Mois&nbsp;: %s"
+msgstr "Mois : %s"
 
 #: inc/template-tags.php:151
 msgctxt "monthly archives date format"
@@ -219,61 +219,61 @@ msgctxt "daily archives date format"
 msgid "F j, Y"
 msgstr "j F Y"
 
-#: inc/template-tags.php:156
+#: inc/template-tags.php:155
 msgctxt "post format archive title"
 msgid "Asides"
 msgstr "En passants"
 
-#: inc/template-tags.php:158
+#: inc/template-tags.php:157
 msgctxt "post format archive title"
 msgid "Galleries"
 msgstr "Galeries"
 
-#: inc/template-tags.php:160
+#: inc/template-tags.php:159
 msgctxt "post format archive title"
 msgid "Images"
 msgstr "Images"
 
-#: inc/template-tags.php:162
+#: inc/template-tags.php:161
 msgctxt "post format archive title"
 msgid "Videos"
 msgstr "Vidéos"
 
-#: inc/template-tags.php:164
+#: inc/template-tags.php:163
 msgctxt "post format archive title"
 msgid "Quotes"
 msgstr "Citations"
 
-#: inc/template-tags.php:166
+#: inc/template-tags.php:165
 msgctxt "post format archive title"
 msgid "Links"
 msgstr "Liens"
 
-#: inc/template-tags.php:168
+#: inc/template-tags.php:167
 msgctxt "post format archive title"
 msgid "Statuses"
 msgstr "États"
 
-#: inc/template-tags.php:170
+#: inc/template-tags.php:169
 msgctxt "post format archive title"
 msgid "Audio"
 msgstr "Audio"
 
-#: inc/template-tags.php:172
+#: inc/template-tags.php:171
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Chats"
 
-#: inc/template-tags.php:175
+#: inc/template-tags.php:173
 msgid "Archives: %s"
 msgstr "Archives&nbsp;:%s"
 
 #. translators: 1: Taxonomy singular name, 2: Current taxonomy term
-#: inc/template-tags.php:179
+#: inc/template-tags.php:177
 msgid "%1$s: %2$s"
 msgstr "%1$s&nbsp;: %2$s"
 
-#: inc/template-tags.php:181
+#: inc/template-tags.php:179
 msgid "Archives"
 msgstr "Archives"
 
@@ -299,7 +299,7 @@ msgstr ""
 "Salut. Je suis un starter thème appelé <code>_s</code>, ou <em>underscores</"
 "em>, si vous préféré. Je suis un thème de base créé non pas afin d'être "
 "utilisé tel quel mais comme un<em>Thème Parent</em>. À vous de faire de moi "
-"le prochain thème le plus impréssionnant pour WordPress. Je suis fait pour "
+"le prochain thème le plus impressionnant pour WordPress. Je suis fait pour "
 "ça."
 
 #. Author of the plugin/theme
