@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: _s\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/_s\n"
-"POT-Creation-Date: 2015-04-23 07:23:15+00:00\n"
-"PO-Revision-Date: 2015-04-23 10:12+0100\n"
-"Last-Translator: fxbenard | FxB <fx@fxbenard.com>\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-05-26 12:23+0200\n"
+"PO-Revision-Date: 2016-05-26 12:24+0200\n"
+"Last-Translator: FX Bénard <fx@fxbenard.com>\n"
 "Language-Team: fxbenard | FxB <fx@fxbenard.com>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
@@ -12,17 +12,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_att_e;_n;"
 "_n:1,2;_x;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x;_x:1,2c\n"
-"X-Poedit-Basepath: ../\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8beta1\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: 404.php:15
+#: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oups ! Cette page ne peut pas être trouvée."
+msgstr "Aïe ! Cette page est introuvable."
 
-#: 404.php:19
+#: 404.php:21
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
@@ -30,49 +30,132 @@ msgstr ""
 "Il semble que rien n'a été trouvé à cet endroit. Essayer peut-être un des "
 "liens ci-dessous ou une recherche ?"
 
-#: 404.php:27
+#: 404.php:33
 msgid "Most Used Categories"
 msgstr "Catégories les plus utilisées"
 
 #. translators: %1$s: smiley
-#: 404.php:44
+#: 404.php:51
+#, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Essayez de voir du côté des archives mensuelles. %1$s"
 
-#: comments.php:28
+#: comments.php:31
+#, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Une réflexion au sujet de &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s réflexions au sujet de &ldquo;%2$s&rdquo;"
 
-#: comments.php:35 comments.php:56
+#: comments.php:40 comments.php:61
 msgid "Comment navigation"
 msgstr "Navigation des commentaires"
 
-#: comments.php:38 comments.php:59
+#: comments.php:43 comments.php:64
 msgid "Older Comments"
 msgstr "Commentaires plus anciens"
 
-#: comments.php:39 comments.php:60
+#: comments.php:44 comments.php:65
 msgid "Newer Comments"
 msgstr "Commentaires plus récents"
 
-#: comments.php:72
+#: comments.php:78
 msgid "Comments are closed."
 msgstr "Les commentaires sont fermés."
 
-#: content-none.php:13
-msgid "Nothing Found"
-msgstr "Rien n&rsquo;a été trouvé"
+#: footer.php:18
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
 
-#: content-none.php:19
+#: footer.php:18
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Fièrement propulsé par %s"
+
+#: footer.php:20
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr "Thème : %1$s par %2$s."
+
+#: functions.php:47
+msgid "Primary"
+msgstr "Principal"
+
+#: functions.php:102
+msgid "Sidebar"
+msgstr "Colonne latérale"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: header.php:45
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publié le : %s"
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "par %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publié dans %1$s"
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Tagué avec %1$s"
+
+#: inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: inc/template-tags.php:64
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: inc/template-tags.php:64
+msgid "% Comments"
+msgstr "% commentaires"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:71 template-parts/content-page.php:33
+#, php-format
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Rien n’a été trouvé"
+
+#: template-parts/content-none.php:21
+#, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 "Prêt à publier votre premier article ? <a href=\"%1$s\">Commencez ici</a>."
 
-#: content-none.php:23
+#: template-parts/content-none.php:25
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
@@ -80,7 +163,7 @@ msgstr ""
 "Désolé, mais rien ne correspond à votre critères de recherche. Veuillez "
 "réessayer avec d&rsquo;autres mots-clefs."
 
-#: content-none.php:28
+#: template-parts/content-none.php:31
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
@@ -88,198 +171,15 @@ msgstr ""
 "Il semble que vous ne trouvez ce que vous cherchez. Peut-être qu'une "
 "recherche pourra vous aider."
 
-#: content-page.php:18 content-single.php:20 content.php:29
+#: template-parts/content-page.php:22 template-parts/content.php:38
 msgid "Pages:"
-msgstr "Pages&nbsp;:"
+msgstr "Pages :"
 
-#: content-page.php:25 inc/template-tags.php:126
-msgid "Edit"
-msgstr "Modifier"
-
-#. translators: %s: Name of current post
-#: content.php:22
+#. translators: %s: Name of current post.
+#: template-parts/content.php:33
+#, php-format
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Continuer la lecture <span class=\"meta-nav\">&rarr;</span>"
-
-#: footer.php:15
-msgid "http://wordpress.org/"
-msgstr "http://wordpress.org/"
-
-#: footer.php:15
-msgid "Proudly powered by %s"
-msgstr "Fièrement propulsé par %s"
-
-#: footer.php:17
-msgid "Theme: %1$s by %2$s."
-msgstr "Thème : %1$s par %2$s."
-
-#: functions.php:53 header.php:31
-msgid "Primary Menu"
-msgstr "Menu principal"
-
-#: functions.php:88
-msgid "Sidebar"
-msgstr "Colonne latérale"
-
-#: header.php:22
-msgid "Skip to content"
-msgstr "Aller au contenu"
-
-#: inc/extras.php:52
-msgid "Page %s"
-msgstr "Page %s"
-
-#: inc/template-tags.php:23
-msgid "Posts navigation"
-msgstr "Navigation des articles"
-
-#: inc/template-tags.php:27
-msgid "Older posts"
-msgstr "Articles plus anciens"
-
-#: inc/template-tags.php:31
-msgid "Newer posts"
-msgstr "Articles plus récents"
-
-#: inc/template-tags.php:56
-msgid "Post navigation"
-msgstr "Navigation des articles"
-
-#: inc/template-tags.php:86
-msgctxt "post date"
-msgid "Posted on %s"
-msgstr "Publié le&nbsp;: %s"
-
-#: inc/template-tags.php:91
-msgctxt "post author"
-msgid "by %s"
-msgstr "par %s"
-
-#. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:108 inc/template-tags.php:114
-msgid ", "
-msgstr ", "
-
-#: inc/template-tags.php:110
-msgid "Posted in %1$s"
-msgstr "Publié dans %1$s"
-
-#: inc/template-tags.php:116
-msgid "Tagged %1$s"
-msgstr "Tagué avec %1$s"
-
-#: inc/template-tags.php:122
-msgid "Leave a comment"
-msgstr "Laisser un commentaire"
-
-#: inc/template-tags.php:122
-msgid "1 Comment"
-msgstr "1 commentaire"
-
-#: inc/template-tags.php:122
-msgid "% Comments"
-msgstr "% commentaires"
-
-#: inc/template-tags.php:143
-msgid "Category: %s"
-msgstr "Catégorie&nbsp;: %s"
-
-#: inc/template-tags.php:145
-msgid "Tag: %s"
-msgstr "Étiquette&nbsp;: %s"
-
-#: inc/template-tags.php:147
-msgid "Author: %s"
-msgstr "Auteur&nbsp;: %s"
-
-#: inc/template-tags.php:149
-msgid "Year: %s"
-msgstr "Année&nbsp;: %s"
-
-#: inc/template-tags.php:149
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr "Y"
-
-#: inc/template-tags.php:151
-msgid "Month: %s"
-msgstr "Mois&nbsp;: %s"
-
-#: inc/template-tags.php:151
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr "F Y"
-
-#: inc/template-tags.php:153
-msgid "Day: %s"
-msgstr "Jour&nbsp;: %s"
-
-#: inc/template-tags.php:153
-msgctxt "daily archives date format"
-msgid "F j, Y"
-msgstr "j F Y"
-
-#: inc/template-tags.php:156
-msgctxt "post format archive title"
-msgid "Asides"
-msgstr "En passants"
-
-#: inc/template-tags.php:158
-msgctxt "post format archive title"
-msgid "Galleries"
-msgstr "Galeries"
-
-#: inc/template-tags.php:160
-msgctxt "post format archive title"
-msgid "Images"
-msgstr "Images"
-
-#: inc/template-tags.php:162
-msgctxt "post format archive title"
-msgid "Videos"
-msgstr "Vidéos"
-
-#: inc/template-tags.php:164
-msgctxt "post format archive title"
-msgid "Quotes"
-msgstr "Citations"
-
-#: inc/template-tags.php:166
-msgctxt "post format archive title"
-msgid "Links"
-msgstr "Liens"
-
-#: inc/template-tags.php:168
-msgctxt "post format archive title"
-msgid "Statuses"
-msgstr "États"
-
-#: inc/template-tags.php:170
-msgctxt "post format archive title"
-msgid "Audio"
-msgstr "Audio"
-
-#: inc/template-tags.php:172
-msgctxt "post format archive title"
-msgid "Chats"
-msgstr "Chats"
-
-#: inc/template-tags.php:175
-msgid "Archives: %s"
-msgstr "Archives&nbsp;:%s"
-
-#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
-#: inc/template-tags.php:179
-msgid "%1$s: %2$s"
-msgstr "%1$s&nbsp;: %2$s"
-
-#: inc/template-tags.php:181
-msgid "Archives"
-msgstr "Archives"
-
-#: search.php:16
-msgid "Search Results for: %s"
-msgstr "Résultats de recherche pour : %s"
+msgstr "Continuer la lecture de %s <span class=\"meta-nav\">&rarr;</span>"
 
 #. Theme Name of the plugin/theme
 msgid "_s"
@@ -299,7 +199,7 @@ msgstr ""
 "Salut. Je suis un starter thème appelé <code>_s</code>, ou <em>underscores</"
 "em>, si vous préféré. Je suis un thème de base créé non pas afin d'être "
 "utilisé tel quel mais comme un<em>Thème Parent</em>. À vous de faire de moi "
-"le prochain thème le plus impréssionnant pour WordPress. Je suis fait pour "
+"le prochain thème le plus impressionnant pour WordPress. Je suis fait pour "
 "ça."
 
 #. Author of the plugin/theme
@@ -309,6 +209,99 @@ msgstr "Automattic"
 #. Author URI of the plugin/theme
 msgid "http://automattic.com/"
 msgstr "http://automattic.com/"
+
+#~ msgid "Edit"
+#~ msgstr "Modifier"
+
+#~ msgid "Page %s"
+#~ msgstr "Page %s"
+
+#~ msgid "Posts navigation"
+#~ msgstr "Navigation des articles"
+
+#~ msgid "Older posts"
+#~ msgstr "Articles plus anciens"
+
+#~ msgid "Newer posts"
+#~ msgstr "Articles plus récents"
+
+#~ msgid "Post navigation"
+#~ msgstr "Navigation des articles"
+
+#~ msgid "Category: %s"
+#~ msgstr "Catégorie&nbsp;: %s"
+
+#~ msgid "Tag: %s"
+#~ msgstr "Étiquette&nbsp;: %s"
+
+#~ msgid "Author: %s"
+#~ msgstr "Auteur&nbsp;: %s"
+
+#~ msgid "Year: %s"
+#~ msgstr "Année&nbsp;: %s"
+
+#~ msgctxt "yearly archives date format"
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Month: %s"
+#~ msgstr "Mois : %s"
+
+#~ msgctxt "monthly archives date format"
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#~ msgid "Day: %s"
+#~ msgstr "Jour&nbsp;: %s"
+
+#~ msgctxt "daily archives date format"
+#~ msgid "F j, Y"
+#~ msgstr "j F Y"
+
+#~ msgctxt "post format archive title"
+#~ msgid "Asides"
+#~ msgstr "En passants"
+
+#~ msgctxt "post format archive title"
+#~ msgid "Galleries"
+#~ msgstr "Galeries"
+
+#~ msgctxt "post format archive title"
+#~ msgid "Images"
+#~ msgstr "Images"
+
+#~ msgctxt "post format archive title"
+#~ msgid "Videos"
+#~ msgstr "Vidéos"
+
+#~ msgctxt "post format archive title"
+#~ msgid "Quotes"
+#~ msgstr "Citations"
+
+#~ msgctxt "post format archive title"
+#~ msgid "Links"
+#~ msgstr "Liens"
+
+#~ msgctxt "post format archive title"
+#~ msgid "Statuses"
+#~ msgstr "États"
+
+#~ msgctxt "post format archive title"
+#~ msgid "Audio"
+#~ msgstr "Audio"
+
+#~ msgctxt "post format archive title"
+#~ msgid "Chats"
+#~ msgstr "Chats"
+
+#~ msgid "Archives: %s"
+#~ msgstr "Archives&nbsp;:%s"
+
+#~ msgid "%1$s: %2$s"
+#~ msgstr "%1$s&nbsp;: %2$s"
+
+#~ msgid "Archives"
+#~ msgstr "Archives"
 
 #~ msgid "Author Archives: %s"
 #~ msgstr "Archives de l&rsquo;auteur&nbsp;: %s"
@@ -2201,9 +2194,6 @@ msgstr "http://automattic.com/"
 #~ "Cette page se charge en %1$s secondes avec %2$s requêtes dans la base de "
 #~ "données."
 
-#~ msgid "Edit %1$s"
-#~ msgstr "Modifier %1$s"
-
 #~ msgid "%1$s Response"
 #~ msgstr "%1$s Réponse"
 
@@ -2224,10 +2214,6 @@ msgstr "http://automattic.com/"
 
 #~ msgid "Log in to reply."
 #~ msgstr "Connectez-vous pour répondre."
-
-#~ msgctxt "sidebar"
-#~ msgid "Primary"
-#~ msgstr "Primaire"
 
 #~ msgid "The main (primary) widget area, most often used as a sidebar."
 #~ msgstr ""
